@@ -31,8 +31,8 @@ ${n.map((r,o)=>`${o+1}) ${r.toString()}`).join(`
       transform: scale(1.03);
     }
     .photo-card[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {
-      width: 150px;
-      height: 150px;
+     width: 100%;
+      height: 350px;
       object-fit: cover;
       object-position: center center;
       display: block;
